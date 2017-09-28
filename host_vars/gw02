@@ -5,11 +5,11 @@
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
 vm_id: 3
 server_id: 3
-server_besitzer: "TobiTX / vmware Hetzner"
+server_besitzer: "Förderverein freie Infrastruktur e. V. / FFI"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
-server_ipv4_nat: 185.66.195.7/32 #ist doch die die mir FFRL geschickt hat oder?
+ffrl_nat_ip: 185.66.195.7/32 #ist doch die die mir FFRL geschickt hat oder?
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
@@ -72,3 +72,15 @@ domaenenliste:
       dhcp_start: 10.13.252.1
       dhcp_ende: 10.13.255.254
       server_id: 3
+
+
+dhcp_type: "kea"
+
+tunneldigger:
+  instance_per_domain: true
+  interface: "eth0"
+  max_tunnels: 1024
+  port_base: 20100
+  pmtu_discovery: false
+  tunnel_timeout: 60
+
