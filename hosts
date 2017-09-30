@@ -8,7 +8,7 @@ buildserver ansible_ssh_host=137.74.232.49
 services    ansible_ssh_host=137.74.232.48
 
 [mapserver]
-karte		ansible_ssh_host=137.74.232.48 ansible_ssh_port=22
+karte		ansible_ssh_host=176.9.38.156 ansible_ssh_port=22
 
 
 # Backbone Server 

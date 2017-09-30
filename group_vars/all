@@ -6,6 +6,8 @@ domaenen:
     ffv4_network: 10.13.192.0/21
     ffv6_network: 2a03:2260:200d:100::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene01/
     
   "02":
@@ -14,6 +16,8 @@ domaenen:
     ffv4_network: 10.13.200.0/21
     ffv6_network: 2a03:2260:200d:200::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene02/
     
   "03":
@@ -22,6 +26,8 @@ domaenen:
     ffv4_network: 10.13.208.0/21
     ffv6_network: 2a03:2260:200d:300::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene03/
 
   "04":
@@ -30,6 +36,8 @@ domaenen:
     ffv4_network: 10.13.216.0/21
     ffv6_network: 2a03:2260:200d:400::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene04/
     
   "05":
@@ -38,6 +46,8 @@ domaenen:
     ffv4_network: 10.13.224.0/21
     ffv6_network: 2a03:2260:200d:500::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene05/
     
   "06":
@@ -46,6 +56,8 @@ domaenen:
     ffv4_network: 10.13.232.0/21
     ffv6_network: 2a03:2260:200d:600::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene05/
     
   "07":
@@ -54,6 +66,8 @@ domaenen:
     ffv4_network: 10.13.240.0/21
     ffv6_network: 2a03:2260:200d:700::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene05/
 
   "08":
@@ -62,6 +76,8 @@ domaenen:
     ffv4_network: 10.13.248.0/21
     ffv6_network: 2a03:2260:200d:800::/64
     map_scale: 0.9
+    map_show_contact: false
+    map_max_age: 60
     firmware: domaene08/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
