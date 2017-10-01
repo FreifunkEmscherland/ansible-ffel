@@ -116,6 +116,7 @@ administratorenteam:
   - "parad0x"
   - "fungur"
   - "mpw"
+  - "corny"
 
 collectd:
   collect_dhcp: false

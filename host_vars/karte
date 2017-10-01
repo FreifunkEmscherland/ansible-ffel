@@ -1,4 +1,4 @@
-server_besitzer: "Sven Culley / Sense"
+server_besitzer: "FFI"
 vm_id: 12
 server_id: 12
 
@@ -54,10 +54,10 @@ mapconfig:
         layers: "nw_dop20"
         format: "image/jpeg"
 
-node_stats:
-  graphite_target:
-    host: 148.251.101.196
-    port: 2003
+#node_stats:
+#  graphite_target:
+#    host: 148.251.101.196
+#    port: 2003
 
 nginx_tiles_cache:
   cache_locations:
@@ -86,16 +86,16 @@ nginx_tiles_cache:
       valid_time: 90d
 
 
-collectd:
-  collect_dhcp: false
-  collect_fastd: false
-  collect_l2tp: false
-  collect_ipv4ipv6: true
-  collect_sysctl: false
-  collect_bind: false
-  collect_ping: false
-  collect_nginx: true
-  graphite_target:
-    host: 89.163.231.228
-    port: 2003
+#collectd:
+#  collect_dhcp: false
+#  collect_fastd: false
+#  collect_l2tp: false
+#  collect_ipv4ipv6: true
+#  collect_sysctl: false
+#  collect_bind: false
+#  collect_ping: false
+#  collect_nginx: true
+#  graphite_target:
+#    host: 89.163.231.228
+#    port: 2003
 
