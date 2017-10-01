@@ -74,7 +74,7 @@ domaenenliste:
       server_id: 3
 
 
-dhcp_type: "kea"
+dhcp_type: "isc-dhcp"
 
 tunneldigger:
   instance_per_domain: true

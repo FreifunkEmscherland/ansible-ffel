@@ -21,7 +21,7 @@ kea:
     db_pass: "{{kea_postgres_pw}}"
   global:
     mtu: 1280
-    lease_default: 86400
+    lease_default: 7200
     search_domain: "{{freifunk.search_domain}}"
   dns:
     all_gateways: true
@@ -42,9 +42,9 @@ kea:
     - name: "flush-reclaimed-timer-wait-time"
       value: 10
     - name: "hold-reclaimed-time"
-      value: 7200
+      value: 3600
     - name: "max-reclaim-leases"
-      value: 1500
+      value: 500
     - name: "max-reclaim-time"
       value: 300
     - name: "unwarned-reclaim-cycles"
