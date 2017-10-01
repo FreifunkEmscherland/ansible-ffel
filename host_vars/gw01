@@ -72,3 +72,5 @@ domaenenliste:
       dhcp_start: 10.13.248.1
       dhcp_ende: 10.13.251.255
       server_id: 2
+
+dhcp_type: "isc-dhcp"
