@@ -51,7 +51,7 @@ domaenen:
     firmware: domaene05/
     
   "06":
-    name: Reserve
+    name: Gelsenkirchen
     community: Emscherland
     ffv4_network: 10.13.232.0/21
     ffv6_network: 2a03:2260:200d:600::/64

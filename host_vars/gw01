@@ -5,11 +5,11 @@
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
 vm_id: 2
 server_id: 2
-server_besitzer: "FFRL / oVirt Berlin"
+server_besitzer: "Förderverein freie Infrastruktur e. V. / FFI"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
-server_ipv4_nat: 185.66.195.6/32 
+ffrl_nat_ip: 185.66.195.6/32 
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
