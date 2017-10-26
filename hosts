@@ -17,7 +17,7 @@ karte		ansible_ssh_host=176.9.38.156 ansible_ssh_port=22
 [gateways]
 # Gateways mit oder ohne Direktanbindung FFRL
 # Immer mit Multidomänen-L2TP
-gw01	ansible_ssh_host=185.46.137.150
+gw01	ansible_ssh_host=46.4.80.131
 gw02	ansible_ssh_host=176.9.38.158
 
 # Sonstige Server
